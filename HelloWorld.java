@@ -19,8 +19,16 @@ class HelloWorld {
         numbers.add(3);
         numbers.add(4);
         numbers.add(5);
-        
+        numbers.add(6);
+
+            // Removal by index
+        // numbers.remove(2);
+            // Removal by value
+        // numbers.remove(Integer.valueOf(3));
+
+
         System.out.println(numbers.toString());
+        // System.out.println(numbers.get(2));
 
     }
 }
