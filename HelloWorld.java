@@ -21,14 +21,18 @@ class HelloWorld {
         numbers.add(5);
         numbers.add(6);
 
+        numbers.forEach(number -> {
+            System.out.println(number * 10);
+        });
+
             // Removal by index
         // numbers.remove(2);
             // Removal by value
         // numbers.remove(Integer.valueOf(3));
 
-
-        System.out.println(numbers.toString());
+        // System.out.println(numbers.toString());
         // System.out.println(numbers.get(2));
+        System.out.println(numbers.contains(2));
 
     }
 }
